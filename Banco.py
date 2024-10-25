@@ -2,7 +2,7 @@ import sqlite3
 
 class Banco:
     def __init__(self):
-        self.conexao = sqlite3.connect('Projetos/Crud_pessoal/data/autenticrud.db')
+        self.conexao = sqlite3.connect('data/autenticrud.db')
         self.createTable()
 
     def createTable(self):
